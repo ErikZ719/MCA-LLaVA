@@ -5,7 +5,7 @@ MCA-LLaVA
 
 ## Citation
 ```bibtex
-@article{zhang2024redundancy,
+@article{zhaoMCA,
   title={MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models},
   author={Zhao, Qiyan and  Zhang, Xiaofeng and Li, yiheng and Xing, Yun and Yuan Xiaosong and Tang, Feilong and Fan, Sinan and Chen, Xuhang and Zhang, Xuyao and Wang, Dahan},
   journal={The 33rd ACM International Conference on Multimedia},
