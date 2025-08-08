@@ -6,6 +6,21 @@ The difference of MCA-LLaVA with CCA-LLaVA and LLaVA is follows:
 
 ![image](https://github.com/ErikZ719/MCA-LLaVA/blob/main/Manhattan-Causal-Masking.png)
 
+## 🛠️ Install
+```
+conda create -n mca python=3.10 -y
+conda activate mca
+pip install --upgrade pip  # enable PEP 660 support
+pip install torch==2.1.1 torchvision==0.16.1 torchaudio==2.1.1 --index-url https://download.pytorch.org/whl/cu118
+pip install -e .
+pip install -e ".[train]"
+pip install triton==2.1.0 pynvml==11.5.0 --upgrade
+pip install flash-attn==2.5.8 --no-build-isolation --no-cache-dir
+```
+
+## 🤗 Model
+coming soon
+- [mca-llava-1.5-7b](https://huggingface.co/)
 
 ## Citation
 ```bibtex
