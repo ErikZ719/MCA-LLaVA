@@ -48,7 +48,7 @@ coming soon
 ```bibtex
 @article{zhaoMCA,
   title={MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models},
-  author={Zhao, Qiyan and  Zhang, Xiaofeng and Li, yiheng and Xing, Yun and Yuan Xiaosong and Tang, Feilong and Fan, Sinan and Chen, Xuhang and Zhang, Xuyao and Wang, Dahan},
+  author={Zhao, Qiyan and  Zhang, Xiaofeng and Li, Yiheng and Xing, Yun and Yuan, Xiaosong and Tang, Feilong and Fan, Sinan and Chen, Xuhang and Zhang, Xu-Yao and Wang, Da-Han},
   journal={The 33rd ACM International Conference on Multimedia},
   year={2025},
   url={https://doi.org/10.1145/3746027.3755271}, 
