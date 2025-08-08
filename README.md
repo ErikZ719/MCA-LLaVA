@@ -44,6 +44,16 @@ MCA-LLaVA training pipeline follows [LLaVA-1.5](https://github.com/haotian-liu/L
 coming soon
 - [mca-llava-1.5-7b](https://huggingface.co/)
 
+## Usage
+To replace default causal scheme with our proposed mca, you can prepend following code to either training or evaluation code, subject to your own use case.
+```
+import transformers
+from llava.mca_utils.mca import llamaforcausallm_forward, mca_forward 
+transformers.models.llama.LlamaForCausalLM.forward = llamaforcausallm_forward
+transformers.models.llama.LlamaModel.forward = mca_forward
+```
+We encourage trying a training-free implementation of MCA-LLaVA — it might yield surprising results.
+
 ## Citation
 ```bibtex
 @article{zhaoMCA,
