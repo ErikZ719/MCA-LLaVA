@@ -3,7 +3,7 @@ The information flow of MCA-LLaVA is follows:
 ![image](https://github.com/ErikZ719/MCA-LLaVA/blob/main/information-flow.png)
 
 > **[MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models](https://doi.org/10.1145/3746027.3755271)**<br>
-> NeurIPS 2024<br>
+> ACM MM 2025<br>
 > Qiyan Zhao*, Xiaofeng Zhang*, Yiheng Li, Yun Xing, Xiaosong Yuan, Feilong Tang, Sinan Fan, Xuhang Chen, Xu-Yao Zhang, Da-Han Wang†<br>
 
 
