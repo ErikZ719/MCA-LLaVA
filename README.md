@@ -1,4 +1,4 @@
-# MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models [ACMM MM25]
+# MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models 
 The information flow of MCA-LLaVA is follows:
 ![image](https://github.com/ErikZ719/MCA-LLaVA/blob/main/information-flow.png)
 
