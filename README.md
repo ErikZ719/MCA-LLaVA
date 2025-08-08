@@ -26,8 +26,21 @@ pip install -e ".[train]"
 pip install triton==2.1.0 pynvml==11.5.0 --upgrade
 pip install flash-attn==2.5.8 --no-build-isolation --no-cache-dir
 ```
+## Data
+Please refer to [Data.md](https://github.com/ErikZ719/MCA-LLaVA/blob/main/docs/Data.md) for preparation of training data.
 
-## 🤗 Model
+## Train
+MCA-LLaVA training pipeline follows [LLaVA-1.5](https://github.com/haotian-liu/LLaVA). The training consists of two stages:
+- **Step 1, pretraining**. Train a projector on a CC3M subset of ∼558K image-text pairs to connect a frozen pretrained vision encoder and a frozen LLM.
+  ```
+  bash scripts/v1_5/pretrain.mca-llava-1.5-7b.sh
+  ```
+- **Step 2, instruction tuning**. Fine-tune projector and LLM with ~665k multimodal instruction data.
+  ```
+  bash scripts/v1_5/finetune.mca-llava-1.5-7b.sh
+  ```
+  
+## Model
 coming soon
 - [mca-llava-1.5-7b](https://huggingface.co/)
 
@@ -39,6 +52,13 @@ coming soon
   journal={The 33rd ACM International Conference on Multimedia},
   year={2025},
   url={https://doi.org/10.1145/3746027.3755271}, 
+}
+
+@article{xing2024mitigating,
+  title={Mitigating Object Hallucination via Concentric Causal Attention},
+  author={Xing, Yun and Li, Yiheng and Laptev, Ivan and Lu, Shijian},
+  journal={arXiv preprint arXiv:2410.15926},
+  year={2024}
 }
 ```
 ## Acknowledgement
