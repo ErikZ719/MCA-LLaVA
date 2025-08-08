@@ -1,12 +1,14 @@
 # MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models 
-The information flow of MCA-LLaVA is follows:
-![image](https://github.com/ErikZ719/MCA-LLaVA/blob/main/information-flow.png)
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2410.15926-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2507.09184) <a href="https://huggingface.co/papers/2410.15926"></a> <a href='https://huggingface.co'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-blue'></a> 
+
 
 > **[MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models](https://doi.org/10.1145/3746027.3755271)**<br>
 > ACM MM 2025<br>
 > Qiyan Zhao*, Xiaofeng Zhang*, Yiheng Li, Yun Xing, Xiaosong Yuan, Feilong Tang, Sinan Fan, Xuhang Chen, Xu-Yao Zhang, Da-Han Wang†<br>
 
-
+The information flow of MCA-LLaVA is follows:
+![image](https://github.com/ErikZ719/MCA-LLaVA/blob/main/information-flow.png)
 
 
 The difference of MCA-LLaVA with CCA-LLaVA and LLaVA is follows:
