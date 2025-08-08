@@ -13,7 +13,8 @@ The difference of MCA-LLaVA with CCA-LLaVA and LLaVA is follows:
   title={MCA-LLaVA: Manhattan Causal Attention for Reducing Hallucination in Large Vision-Language Models},
   author={Zhao, Qiyan and  Zhang, Xiaofeng and Li, yiheng and Xing, Yun and Yuan Xiaosong and Tang, Feilong and Fan, Sinan and Chen, Xuhang and Zhang, Xuyao and Wang, Dahan},
   journal={The 33rd ACM International Conference on Multimedia},
-  year={2025}
+  year={2025},
+  url={https://doi.org/10.1145/3746027.3755271}, 
 }
 ```
 ## Acknowledgement
